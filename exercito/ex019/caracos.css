@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é id = em CSS é #
+    Em HTML é class = em CSS é .
+*/
+
+body {
+    background: linear-gradient(245deg , rgba(255, 0, 0, 0.884), rgba(255, 93, 93, 0.884), rgb(249, 214, 214));
+}
+
+@font-face {
+    font-family: Pokas;
+    src: url(font/Pokemon\ Hollow.ttf);
+}
+
+h1 {
+    color: rgb(92, 11, 168);
+}
+
+h1#First {
+    text-align: center;
+    font-family: 'Pokas';
+    background: linear-gradient(120deg, white, red);
+}
+
+h2 {
+    color: rgb(134, 4, 255);
+}
+
+.basico {
+    color: rgb(163, 207, 246);
+}
+
+.intermediario {
+    color:rgb(88, 174, 255);
+}
+
+.avançado {
+    color:rgb(0, 136, 255);
+}
+
+.destaque {
+    background: linear-gradient(120deg, red, white);
+}
