@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: pokas;
+    src: url(fonts/Overpass-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: boas;
+    src: url(fonts/Pokemon\ Hollow.ttf);
+}
+
+body {
+    background-color: grey;
+}
+
+header {
+    margin: -8px;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(120deg, rgb(211, 84, 84), grey);
+    height: 200px;
+    box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.205);
+}
+
+header h1 {
+    font: bolder 50px 'pokas';
+    color: rgb(0, 0, 0);
+    margin: 0px;
+}
+
+header h2 {
+    margin: 10px;
+    padding: 10px;
+    font-weight:500;
+}
+
+header a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font: normal 15px 'pokas';
+}
+
+header a:hover {
+    border: 5px solid rgba(240, 248, 255, 0.096);
+    border-radius: 10px 0px;
+    background-color: rgba(240, 248, 255, 0.352);
+    padding: 10px;
+}
+
+nav {
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+#left {
+    padding: 7px;
+    text-align: left;
+}
+
+main {
+    margin: 72px;
+    margin-top: 8px;
+    background-color: rgb(255, 255, 255);
+    padding:30px;
+    border-radius: 10px 0px;
+    text-align: left;
+    box-shadow: -1px 5px 8px 1px rgba(0, 0, 0, 0.29);
+
+}
+
+main h1 {
+    font-family: 'pokas';
+    color: rgb(90, 89, 89);
+}
+
+main h2 {
+    background: linear-gradient(120deg, rgba(246, 50, 50, 0.701), rgb(223, 218, 218), rgb(255, 255, 255));
+    color: rgb(90, 89, 89);
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+
+p {
+    font-family: 'pokas';
+    font-size: 15px;
+    text-indent: 10px;
+}
+
+#cara {
+    border: 2px solid grey;
+    background-color: grey;
+}
+
+#cara:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+#yutu {
+    background-color: rgb(249, 27, 27);
+    margin: 10px -30px 0px -30px;
+    padding: 14px;
+    text-align: center;
+    height: 520px;
+}
+
+iframe {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ol {
+    display: inline-block;
+    margin: 0px; /* Remova as margens para evitar espaçamento indesejado */
+    padding: 0px; /* Remova o preenchimento para evitar espaçamento indesejado */
+    vertical-align: top; /* Alinhe os elementos superiormente para mantê-los nivelados */
+}
